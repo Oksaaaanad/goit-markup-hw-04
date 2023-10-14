@@ -271,10 +271,16 @@ letter-spacing: 0.32px;
 /* padding: 30px 62px; */
 }
 
+
 .icons-list {
     display: flex;
     justify-content: center;
     gap: 24px;
+}
+.icons-list-item {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 .link-items {
     width: 100%;
@@ -285,16 +291,10 @@ letter-spacing: 0.32px;
     align-items: center;
     justify-content: center;
 }
+
 .link-items:hover,
 .link-items:focus {
     background-color: #404bbf;
-}
-.icons-list-item {
-    width: 40px;
-    height: 40px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    
-
 }
 
 /* Our Portfolio */
